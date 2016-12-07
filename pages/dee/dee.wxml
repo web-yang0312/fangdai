@@ -1,0 +1,68 @@
+<view class="banner"> 
+     <view class="top">
+         <view class="top-content">
+               <view class="benxi">等额本息</view>
+               <view class="benjin">等额本金</view>
+         </view>
+     </view>
+     <view class="zhong">
+         <view class="can">
+              <view class="cankao">每月月供参考(元)</view>
+              <view class="shuzi">{{m}}</view>
+         </view>
+         <view class="jian">
+              <view class="cankao">每月递减（元）</view>
+              <view class="shuzi">{{h}}</view>
+         </view>
+     </view>
+     <view class="bottom">
+         <view class="lixi">
+              <view class="title">支付利息(元)</view>
+              <view class="shuzi1">{{zl}}</view>
+         </view>
+         <view class="huankuan">
+              <view class="title">还款总额（元）</view>
+              <view class="shuzi1">{{ben}}</view>
+         </view>
+     </view>
+</view>
+<view class="denge">
+等额本息还款详情
+</view>
+<view class="list">
+     <view class="list-list"  bindtap="action2">
+        <view class="kind">
+             贷款类型
+        </view>
+        <view class="gongneng">
+        {{itemList[kind]}} >
+        </view>
+     </view>
+     <view class="list-list">
+        <view class="kind">
+             贷款金额（万）
+        </view>
+        <view class="gongneng">
+             <input type="text" bindinput="bindKeyInput" maxlength="4" focus="{{focus}}" placeholder-style="color:#939393,font-family:'苹方'" placeholder="请输入金额"/>
+        </view>
+     </view>
+     <view class="list-list"  bindtap="action3">
+        <view class="kind" >
+             期限（年）
+        </view>
+        <view class="gongneng">
+             {{year}} >
+        </view>
+     </view>
+     <view class="list-list"   bindtap="action4">
+        <view class="kind">
+             利率（%）
+        </view>
+        <view class="gongneng">
+            {{lilv[lv]}} >
+        </view>
+     </view>
+</view>
+<view class="cal" bindtap="action">
+     利率表
+</view>

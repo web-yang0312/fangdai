@@ -1,0 +1,166 @@
+view{
+    font-family: "苹方";
+}
+input{
+    font-family: "苹方";
+}
+.banner{
+    width: 100%;
+    height:459rpx;
+    background: #0C8EE6;
+    overflow:hidden;
+}
+.banner .top{
+    height:118rpx;
+    width:100%;
+    position: relative;
+}
+.top .top-content{
+    width:558rpx;
+    height:58rpx;
+    border:3rpx solid #FFFFFF;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border-radius:15rpx ;
+}
+.top-content .benjin{
+    width: 50%;
+    height: 100%;
+    line-height: 58rpx;
+    color:#3981AB;
+    background: #ffffff;
+    text-align: center;
+    float: left;
+}
+.top-content .benxi{
+    width: 50%;
+    height: 100%;
+    line-height: 58rpx;
+    color:#ffffff;
+    text-align: center;
+    float: left;
+}
+.banner .zhong{
+    height:175rpx;
+    width:100%;
+    position: relative;
+}   
+.zhong .can{
+    height:175rpx;
+    width:50%;
+    float:left;
+}
+.zhong .cankao{
+    height:70rpx;
+    width:100%;
+    line-height:70rpx;
+    color:#ffffff;
+    padding-left:30rpx;
+    font-size:14px;
+}
+.zhong .shuzi{
+    height:105rpx;
+    width:100%;
+    line-height:105rpx;
+    color:#ffffff;
+    padding-left:30rpx;
+    font-size:30px;
+   }
+.zhong .jian{
+    height:175rpx;
+    width:50%;
+    float:left;
+}
+.banner .bottom{
+    margin-top:5rpx;
+    height:131rpx;
+    width:100%;
+    position: relative;
+}   
+.bottom .lixi{
+    height:131rpx;
+    width:50%;
+    float:left;
+    border-right:1px solid #FFFFFF;
+    box-sizing:border-box;
+}
+.bottom .title{
+    height:41rpx;
+    width:100%;
+    line-height:41rpx;
+    color:#ffffff;
+    padding-left:30rpx;
+    font-size:14px;
+    box-sizing:border-box;
+}
+.bottom .shuzi1{
+    height:90rpx;
+    width:100%;
+    line-height:90rpx;
+    color:#ffffff;
+    padding-left:30rpx;
+    font-size:20px;
+    box-sizing:border-box;
+   }
+.bottom .huankuan{
+    height:131rpx;
+    width:50%;
+    float:left;
+}
+.denge{
+    width: 100%;
+    height:76rpx;
+    background: #e9f4f6;
+    color:#727C7D;
+    font-size:14px;
+    text-align: center;
+    line-height: 76rpx;
+}
+.list{
+    padding-left:36rpx;
+    overflow: hidden;
+}
+.list .list-list{
+    width:100%;
+    height:100rpx;
+    position: relative;
+    border-bottom:1px solid #e6e6e6;
+}
+.list-list .kind{
+    color: #323232;
+    font-size:16px;
+    line-height: 100rpx;
+    float: left;
+}
+.list-list .gongneng{
+    color: #939393;
+    font-size:16px;
+    line-height: 100rpx;
+    float: right;
+    padding-right:36rpx;
+}
+.gongneng input{
+    position: absolute;
+    top:0;
+    right:36rpx;
+    bottom:0;
+    height: 100%;
+    text-align: right;
+    line-height: 100rpx;
+    margin: auto;
+}
+.cal{
+    width: 100rpx;
+    height:100rpx;
+    position: fixed;
+    bottom: 50rpx;
+    right:50rpx;
+    background: #0C8EE6;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+}
